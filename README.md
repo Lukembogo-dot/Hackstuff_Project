@@ -41,19 +41,18 @@ The project also includes a **Streamlit chatbot UI** that allows users (farmers,
 - Accuracy: ~80%  
 - Balanced precision & recall across both classes  
 
-📷 *[Insert screenshot of confusion matrix / classification report here]*  
-
 ---
 
 ## 💻 Streamlit Chatbot UI  
 
-We built a **Streamlit app** that allows users to:  
+I built a **Streamlit app** that allows users to:  
 1. Input rainfall, temperature, and fertility index values.  
 2. Receive a prediction on land suitability.  
 3. Interact with the model in a chatbot-like interface.  
 
-📷 *[Insert screenshot of chatbot UI here]*  
-📷 *[Insert screenshot of input/output prediction here]*  
+![Chatbot UI](./screenshots/Screenshot%202025-10-04%20200758.png)
+![Chatbot UI](./screenshots/Screenshot%202025-10-04%20200858.png)
+![Chatbot UI](./screenshots/Screenshot%202025-10-04%20200925.png)
 
 ---
 
@@ -62,8 +61,8 @@ We built a **Streamlit app** that allows users to:
 - The app is deployed on **Streamlit Cloud** for easy access.  
 - Code and resources are version-controlled via **GitHub**.  
 
-👉 [Add your Streamlit app link here]  
-👉 [Add your GitHub repo link here]  
+👉 [https://hackstuff.streamlit.app/]  
+👉 [https://github.com/Lukembogo-dot/Hackstuff_Project.git]  
 
 ---
 
@@ -82,14 +81,6 @@ This project highlights how **AI can contribute to sustainable agriculture and f
 
 ---
 
-## 📷 Screenshots  
-
-- *[Screenshot 1: Dataset exploration]*  
-- *[Screenshot 2: Model training results]*  
-- *[Screenshot 3: Streamlit chatbot interface]*  
-
----
-
 ## 📌 How to Run Locally  
 
 1. Clone the repository  
@@ -102,7 +93,6 @@ This project highlights how **AI can contribute to sustainable agriculture and f
     pip install -r requirements.txt
 ```
 3. Run the Streamlit app
-```bash
+  ```bash
 streamlit run app.py
 ```
-4. Here is the deployed link - https://hackstuff.streamlit.app/
